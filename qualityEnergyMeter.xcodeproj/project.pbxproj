@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17989813191D37BB00DF30D4 /* venus rising rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17989812191D37BB00DF30D4 /* venus rising rg.ttf */; };
+		179AA41A191D631B00D6BDED /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179AA419191D631B00D6BDED /* MessageUI.framework */; };
+		179AA41D191D64C000D6BDED /* fileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 179AA41C191D64C000D6BDED /* fileManager.m */; };
+		179B1ABE192118ED00A60E29 /* danger-electricity.png in Resources */ = {isa = PBXBuildFile; fileRef = 179B1ABD192118ED00A60E29 /* danger-electricity.png */; };
 		17A80D201919760F00D78B5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A80D1F1919760F00D78B5A /* Foundation.framework */; };
 		17A80D221919760F00D78B5A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A80D211919760F00D78B5A /* CoreGraphics.framework */; };
 		17A80D241919760F00D78B5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A80D231919760F00D78B5A /* UIKit.framework */; };
@@ -21,6 +25,7 @@
 		17A80D411919760F00D78B5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A80D231919760F00D78B5A /* UIKit.framework */; };
 		17A80D491919760F00D78B5A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17A80D471919760F00D78B5A /* InfoPlist.strings */; };
 		17A80D4B1919760F00D78B5A /* qualityEnergyMeterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A80D4A1919760F00D78B5A /* qualityEnergyMeterTests.m */; };
+		17A80D551919762600D78B5A /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A80D541919762600D78B5A /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17989812191D37BB00DF30D4 /* venus rising rg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "venus rising rg.ttf"; path = "../../../Documents/fonts/venus rising rg.ttf"; sourceTree = "<group>"; };
+		179AA419191D631B00D6BDED /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		179AA41B191D64C000D6BDED /* fileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileManager.h; sourceTree = "<group>"; };
+		179AA41C191D64C000D6BDED /* fileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fileManager.m; sourceTree = "<group>"; };
+		179B1ABD192118ED00A60E29 /* danger-electricity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "danger-electricity.png"; sourceTree = "<group>"; };
 		17A80D1C1919760F00D78B5A /* qualityEnergyMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qualityEnergyMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A80D1F1919760F00D78B5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		17A80D211919760F00D78B5A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +63,7 @@
 		17A80D461919760F00D78B5A /* qualityEnergyMeterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "qualityEnergyMeterTests-Info.plist"; sourceTree = "<group>"; };
 		17A80D481919760F00D78B5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		17A80D4A1919760F00D78B5A /* qualityEnergyMeterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qualityEnergyMeterTests.m; sourceTree = "<group>"; };
+		17A80D541919762600D78B5A /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				179AA41A191D631B00D6BDED /* MessageUI.framework in Frameworks */,
+				17A80D551919762600D78B5A /* CoreBluetooth.framework in Frameworks */,
 				17A80D221919760F00D78B5A /* CoreGraphics.framework in Frameworks */,
 				17A80D241919760F00D78B5A /* UIKit.framework in Frameworks */,
 				17A80D201919760F00D78B5A /* Foundation.framework in Frameworks */,
@@ -82,6 +95,7 @@
 		17A80D131919760F00D78B5A = {
 			isa = PBXGroup;
 			children = (
+				17989812191D37BB00DF30D4 /* venus rising rg.ttf */,
 				17A80D251919760F00D78B5A /* qualityEnergyMeter */,
 				17A80D441919760F00D78B5A /* qualityEnergyMeterTests */,
 				17A80D1E1919760F00D78B5A /* Frameworks */,
@@ -101,6 +115,8 @@
 		17A80D1E1919760F00D78B5A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				179AA419191D631B00D6BDED /* MessageUI.framework */,
+				17A80D541919762600D78B5A /* CoreBluetooth.framework */,
 				17A80D1F1919760F00D78B5A /* Foundation.framework */,
 				17A80D211919760F00D78B5A /* CoreGraphics.framework */,
 				17A80D231919760F00D78B5A /* UIKit.framework */,
@@ -114,11 +130,14 @@
 			children = (
 				17A80D2E1919760F00D78B5A /* AppDelegate.h */,
 				17A80D2F1919760F00D78B5A /* AppDelegate.m */,
+				179B1ABD192118ED00A60E29 /* danger-electricity.png */,
 				17A80D311919760F00D78B5A /* Main.storyboard */,
 				17A80D341919760F00D78B5A /* ViewController.h */,
 				17A80D351919760F00D78B5A /* ViewController.m */,
 				17A80D371919760F00D78B5A /* Images.xcassets */,
 				17A80D261919760F00D78B5A /* Supporting Files */,
+				179AA41B191D64C000D6BDED /* fileManager.h */,
+				179AA41C191D64C000D6BDED /* fileManager.m */,
 			);
 			path = qualityEnergyMeter;
 			sourceTree = "<group>";
@@ -229,8 +248,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				17A80D381919760F00D78B5A /* Images.xcassets in Resources */,
+				17989813191D37BB00DF30D4 /* venus rising rg.ttf in Resources */,
 				17A80D2A1919760F00D78B5A /* InfoPlist.strings in Resources */,
 				17A80D331919760F00D78B5A /* Main.storyboard in Resources */,
+				179B1ABE192118ED00A60E29 /* danger-electricity.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +273,7 @@
 				17A80D361919760F00D78B5A /* ViewController.m in Sources */,
 				17A80D301919760F00D78B5A /* AppDelegate.m in Sources */,
 				17A80D2C1919760F00D78B5A /* main.m in Sources */,
+				179AA41D191D64C000D6BDED /* fileManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +478,7 @@
 				17A80D501919760F00D78B5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17A80D511919760F00D78B5A /* Build configuration list for PBXNativeTarget "qualityEnergyMeterTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +487,7 @@
 				17A80D531919760F00D78B5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
